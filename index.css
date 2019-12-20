@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+}
+
+.topnavbar {
+    overflow: hidden;
+    font-family: 'HKGroteskRegular', sans-serif;
+}
+
+.topnavbar a {
+  float: right;
+  display: block;
+  color: #474747;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnavbar a:hover {
+  color: #0d7844;
+  color: black;
+  text-decoration: underline;
+}
+.topnavbar a.active {
+  color: #0d7844;
+}
+.topnavbar .icon {
+  display: none;
+}
