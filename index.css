@@ -1,10 +1,40 @@
 body {
     background-color: white;
+    font-family: 'HKGroteskRegular', sans-serif;
+    text-align: center;
+    color: #474747;
+    /*margin: 0px;*/
+}
+
+.imgblk {
+    display: flex;
+    flex-wrap: wrap;
+    position: middle;
+    justify-content: center;
+}
+
+.imgblk li {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    /*background-color: #474747;*/
+    margin: 20px;
+    /*margin-bottom: 20px;*/
+    border-radius: 5px;
+    border: 2px solid #474747;
+    transition: all 0.3s ease-out;
+}
+
+.imgblk li:hover {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.16);
+    transform: scale(1.03);
 }
 
 .topnavbar {
     overflow: hidden;
     font-family: 'HKGroteskRegular', sans-serif;
+    /*background: black;*/
+    /*width: 100%;*/
 }
 
 .topnavbar a {
@@ -24,6 +54,15 @@ body {
 .topnavbar a.active {
   color: #0d7844;
 }
-.topnavbar .icon {
-  display: none;
+
+.topnavbar div {
+  float: left;
+  display: block;
+  color: #474747;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
 }
+
+
