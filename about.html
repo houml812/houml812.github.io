@@ -2,23 +2,43 @@
 <html>
     <head>
       <meta charset="UTF-8">
-      <link rel="stylesheet" href="index.css">
-      <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/hk-grotesk" type="text/css"/>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css2?family=Open+Sans" type="text/css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap">
       <title>About</title>
     </head>
 
-    <div class="topnavbar" id="topnav">
-        <a href="resume.pdf" target="_blank">resume</a>
-        <a href="about" class="active">about</a>
-        <a href="index.html">portfolio</a>
-        <div>michelle hou</div>
-    </div>
-
     <body>
+        <nav class='topnavbar'>
+            <div id='name'>Michelle Hou</div>
+            <ul>
+                <li>
+                    <a href="index.html">work</a>
+                </li>
+                <li>
+                    <a href="about.html" class="active">about</a>
+                </li>
+                <li>
+                    <a href="assets/files/resume_hou.pdf" target="_blank">resume</a>
+                </li>
+            </ul>
+        </nav>
         <h1>About Me</h1>
-        <div class="text">
-            <p>Hi, I'm Michelle! I'm a second year at Georgia Tech majoring in Computer Science (with concentrations in People and Media) and minoring in Industrial Design.</p>
-            <p>If you're interested in design, coding, reading, music, or just want to chat, find me at <em>houml812@gatech.edu</em>!</p>
+        <div class="about-me">
+            <img class="image-me" src="assets/images/imageMe.jpg" width=30% height=30%>
+            <div class="descr">
+                <p>Hi, I'm Michelle!<br><br>I'm a third year at Georgia Tech majoring in Computer Science and minoring in Industrial Design.
+                    In my spare time I sketch, read, and try to stay away (maybe a bit unsuccessfully) from the YouTube black hole by listening to podcasts.
+                    <br><br><b>Currently...</b>
+                    <ul>
+                        <li>reading <i>The Name of the Wind</i> by Patrick Rothfuss</li>
+                        <li>watching   <i>The Millionaire Detective: Balance: Unlimited</i></li>
+                        <li>listening to The Weeknd's <i>After Hours</i></li>
+                    </ul>
+                    <br>If you're interested in design, coding, reading, music, or just want to chat, find me at <em>houml812@gatech.edu</em>!
+                    <br><br>Currently seeking Summer 2020 internships!
+                </p>
+            </div>
         </div>
     </body>
 </html>
