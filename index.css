@@ -6,13 +6,12 @@ body {
 }
 
 .topnavbar {
-    margin: 40px 100px 40px 100px;
     overflow: hidden;
+    height: 80px;
 }
 
 .topnavbar ul {
     float: right;
-    padding-right: 30px;
     list-style: none;
     display: table;
     width: 400px;
@@ -22,12 +21,11 @@ body {
 .topnavbar li {
     display: table-cell;
     position: relative;
-    padding: 15px 0;
 }
 
 .topnavbar a {
     color: #474747;
-    font-size: 15px;
+    font-size: 1.0em;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.15em;
@@ -60,19 +58,25 @@ body {
 
 #name {
     float: left;
+    position: relative;
     display: block;
     color: #474747;
     text-align: center;
-    padding: 37px;
+    padding: 2vw;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 1.5em;
 }
 
 .content {
+    align: center;
     margin: 40px 100px 300px 100px;
-    text-align: left;
+    text-align: center;
     padding-left: 40px;
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
+}
+
+.header-content {
+    margin-bottom: 20px;
 }
 
 .header-content h1 {
@@ -85,42 +89,57 @@ body {
 }
 
 .works {
-    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.block {
-    margin: 100px 0px 40px 0px;
+.container {
+    position: relative;
+    width: 50%;
+    margin: 10px;
 }
 
-.block-image {
-    border-radius: 10px;
-    float: left;
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
-.description {
-    margin-right: 50px;
-    margin-bottom: 50px;
-    float: right;
-    justify-content: left;
-
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease;
+    background-color: #474747;
 }
 
-button {
-    float: right;
-    margin-right: 50px;
-    background-color: #FFFFFF;
-    border: 4px solid #127563;
-    border-radius: 50px;
-    color: #474747;
-    padding: 15px 32px;
+.container:hover .overlay {
+    opacity: 0.95;
+}
+
+.overlay-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bold;
 }
 
-.footer {
-    margin: 100px 100px 100px 100px;
+footer {
+    text-align: center;
+    font-size: 0.7em;
+    color: #919191;
+    padding: 20px;
 }
 
 .descr {
@@ -145,69 +164,4 @@ button {
     float: left;
     margin: 40px 0px 0px 40px;
 }
-
-
-/*.imgblk {*/
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
-    /*justify-content: center;*/
-/*}*/
-
-/*.cell {*/
-    /*position: relative;*/
-    /*display: inline-block;*/
-    /*width: 400px;*/
-    /*height: 300px;*/
-    /*margin: 20px;*/
-    /*border-radius: 5px;*/
-    /*border: 2px solid #474747;*/
-    /*transition: all 0.3s ease-out;*/
-/*}*/
-
-
-/*.overlay {*/
-  /*position: absolute;*/
-  /*top: 2px;*/
-  /*bottom: 0;*/
-  /*left: 2px;*/
-  /*right: 0;*/
-  /*height: 100%;*/
-  /*width: 100%;*/
-  /*opacity: 0;*/
-  /*transition: .5s ease;*/
-  /*background-color: #474747;*/
-/*}*/
-
-/*.cell:hover .overlay {*/
-  /*opacity: 0.8;*/
-/*}*/
-
-/*.overlayText {*/
-  /*position: absolute;*/
-  /*top: 50%;*/
-  /*left: 50%;*/
-  /*-webkit-transform: translate(-50%, -50%);*/
-  /*-ms-transform: translate(-50%, -50%);*/
-  /*transform: translate(-50%, -50%);*/
-  /*text-align: center;*/
-  /*font-size: 30px;*/
-  /*color: white;*/
-/*}*/
-
-/*.text {*/
-  /*text-align: left;*/
-  /*padding-left: 250px;*/
-  /*padding-right: 250px;*/
-  /*padding-bottom: 60px;*/
-/*}*/
-
-/*.gmimg {*/
-  /*display: flex;*/
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
-/*}*/
-
-/*.gmimg1 {*/
-  /*display: flex;*/
-/*}*/
 
