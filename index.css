@@ -1,8 +1,17 @@
 body {
     background-color: white;
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'DM Sans', sans-serif;
     text-align: center;
     color: #474747;
+}
+
+#catchphrase {
+    font-family: 'Space Mono', monospace;
+}
+
+#aboutMe {
+    font-size: 2.0em;
 }
 
 .topnavbar {
