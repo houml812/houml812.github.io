@@ -125,7 +125,7 @@ body {
     width: 100%;
     opacity: 0;
     transition: .2s ease;
-    background-color: #474747;
+    background-color: #127563;
 }
 
 .container:hover .overlay {
@@ -169,7 +169,7 @@ footer {
 }
 
 .image-me {
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     float: left;
     margin: 40px 0px 0px 40px;
 }
