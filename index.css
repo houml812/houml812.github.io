@@ -78,7 +78,7 @@ body {
 
 .content {
     /* align: center; */
-    margin: 40px 100px 300px 100px;
+    margin: 40px 100px 100px 100px;
     text-align: center;
     padding-left: 40px;
     /*padding-bottom: 100px;*/
@@ -105,8 +105,8 @@ body {
 
 .container {
     position: relative;
-    width: 50%;
-    margin: 10px;
+    /* width: 50%; */
+    /* margin: 10px; */
 }
 
 .image {
@@ -157,7 +157,7 @@ footer {
 }
 
 .about-me {
-    margin: 40px 100px 250px 100px;
+    margin: 40px 100px 100px 100px;
     text-align: left;
 }
 
@@ -165,12 +165,20 @@ footer {
     float: right;
     justify-content: left;
     text-align: left;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .image-me {
     /*border-radius: 10px;*/
     float: left;
     margin: 40px 0px 0px 40px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
 }
 
