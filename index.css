@@ -8,6 +8,7 @@ body {
 
 #catchphrase {
     font-family: 'Space Mono', monospace;
+    /* padding-bottom: 80px; */
 }
 
 #aboutMe {
