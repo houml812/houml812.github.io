@@ -48,6 +48,7 @@ const about = () => {
                                 className='underline underline-offset-4'
                                 href='https://miniature-day-96e.notion.site/clouds-7ab060423f94430389247318afc244da'
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                     see here C:
                             </a>
@@ -56,6 +57,7 @@ const about = () => {
                                 className='underline underline-offset-4'
                                 href='https://miniature-day-96e.notion.site/buildings-306f3284a0994482a1b057c1f838241c'
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                     see here :D
                             </a>

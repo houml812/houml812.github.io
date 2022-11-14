@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="mx-6 flex justify-between items-center py-6 md:mx-32">
                 <div className="flex flex-col md:flex-row gap-3 md:gap-12">
                     <p>→ houml812@gmail.com</p>
-                    <a href='https://www.linkedin.com/in/michelle-hou/' target='_blank'>
+                    <a href='https://www.linkedin.com/in/michelle-hou/' target='_blank' rel="noreferrer">
                         <p className="underline underline-offset-4 cursor-pointer">→ LinkedIn</p>
                     </a>
                 </div>
